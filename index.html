@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrestha Empire | Construction Experts in Patna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#f59e0b',
+                        secondary: '#1e40af',
+                        dark: '#1f2937',
+                        light: '#f3f4f6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-pattern {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23f59e0b" width="50" height="50"/><rect fill="%231e40af" x="50" width="50" height="50"/><rect fill="%231e40af" y="50" width="50" height="50"/><rect fill="%23f59e0b" x="50" y="50" width="50" height="50"/></svg>');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-secondary font-bold text-2xl">SHRESTHA <span class="text-primary">EMPIRE</span></span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-dark hover:text-primary font-medium">Home</a>
+                    <a href="#about" class="text-dark hover:text-primary font-medium">About</a>
+                    <a href="#services" class="text-dark hover:text-primary font-medium">Services</a>
+                    <a href="#projects" class="text-dark hover:text-primary font-medium">Projects</a>
+                    <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-md font-medium hover:bg-secondary transition">Contact Us</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6 text-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-pattern pt-20 pb-16 md:pt-32 md:pb-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 text-white">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Building Dreams With <span class="text-primary">Quality</span> & <span class="text-primary">Expertise</span></h1>
+                    <p class="mt-4 text-lg">We are a trusted construction company based in Patna, delivering exceptional construction services with precision and professionalism.</p>
+                    <div class="mt-8 flex flex-col sm:flex-row sm:space-x-4">
+                        <a href="#contact" class="bg-primary hover:bg-secondary text-white font-medium px-6 py-3 rounded-md text-center mb-3 sm:mb-0">Get Free Quote</a>
+                        <a href="#projects" class="bg-white hover:bg-gray-100 text-secondary font-medium px-6 py-3 rounded-md text-center">View Our Projects</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-10 md:mt-0">
+                    <div class="bg-white rounded-lg shadow-xl p-6">
+                        <h3 class="text-2xl font-bold text-dark mb-4">Request a Callback</h3>
+                        <form id="contactForm" class="space-y-4">
+                            <div>
+                                <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Your Phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            <div>
+                                <textarea placeholder="Your Message" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-primary hover:bg-secondary text-white font-medium px-4 py-2 rounded-md">Submit Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-dark">Our <span class="text-primary">Services</span></h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">We offer a wide range of construction services to meet all your building needs</p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Residential Construction</h3>
+                    <p class="text-gray-600">From dream homes to apartment complexes, we build quality residential spaces.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Commercial Construction</h3>
+                    <p class="text-gray-600">Office buildings, retail spaces, and other commercial properties built to perfection.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Renovation & Remodeling</h3>
+                    <p class="text-gray-600">Transform your existing space with our expert renovation services.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Industrial Construction</h3>
+                    <p class="text-gray-600">Warehouses, factories, and industrial facilities built with durability in mind.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Infrastructure Development</h3>
+                    <p class="text-gray-600">Roads, bridges, and other essential infrastructure projects.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+                    <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white text-2xl mb-4">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-2">Architectural Design</h3>
+                    <p class="text-gray-600">Innovative and functional designs tailored to your specific requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:space-x-12">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-3xl font-bold text-dark">About <span class="text-primary">Shrestha Empire</span></h2>
+                    <p class="mt-4 text-lg text-gray-600">With years of experience in the construction industry, Shrestha Empire has established itself as a trusted name in Patna and surrounding areas.</p>
+                    <div class="mt-6 space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Quality Workmanship</h4>
+                                <p class="text-gray-600">We never compromise on quality and ensure every project meets the highest standards.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Timely Delivery</h4>
+                                <p class="text-gray-600">We understand the importance of deadlines and always complete projects on schedule.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Experienced Team</h4>
+                                <p class="text-gray-600">Our skilled professionals bring expertise and precision to every project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-primary text-white rounded-lg p-6">
+                            <h3 class="text-4xl font-bold">10+</h3>
+                            <p class="mt-2">Years Experience</p>
+                        </div>
+                        <div class="bg-secondary text-white rounded-lg p-6">
+                            <h3 class="text-4xl font-bold">200+</h3>
+                            <p class="mt-2">Projects Completed</p>
+                        </div>
+                        <div class="bg-dark text-white rounded-lg p-6">
+                            <h3 class="text-4xl font-bold">50+</h3>
+                            <p class="mt-2">Happy Clients</p>
+                        </div>
+                        <div class="bg-primary text-white rounded-lg p-6">
+                            <h3 class="text-4xl font-bold">25+</h3>
+                            <p class="mt-2">Expert Workers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-dark">Our <span class="text-primary">Projects</span></h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Take a look at some of our recently completed projects</p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-building text-5xl text-gray-400"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark">Modern Residential Complex</h3>
+                        <p class="mt-2 text-gray-600">A contemporary housing complex with all modern amenities.</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-industry text-5xl text-gray-400"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark">Industrial Warehouse</h3>
+                        <p class="mt-2 text-gray-600">Spacious warehouse facility with advanced storage solutions.</p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md hover:shadow-xl transition">
+                    <div class="h-48 bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-store text-5xl text-gray-400"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark">Commercial Plaza</h3>
+                        <p class="mt-2 text-gray-600">Multi-story commercial building with retail and office spaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-dark">Contact <span class="text-primary">Us</span></h2>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Get in touch with us for your construction needs</p>
+            </div>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-dark mb-6">Get In Touch</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Address</h4>
+                                <p class="text-gray-600">Patna, Bihar, India</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Phone</h4>
+                                <p class="text-gray-600">+9801960672</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-dark">Email</h4>
+                                <p class="text-gray-600">shresthaempire7@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="text-lg font-medium text-dark mb-4">Connect With Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://wa.me/9801960672" class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white text-xl hover:bg-green-600 transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-blue-700 rounded-full flex items-center justify-center text-white text-xl hover:bg-blue-800 transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center text-white text-xl hover:bg-blue-500 transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center text-white text-xl hover:bg-red-700 transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-dark mb-6">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Your Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Your Phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                        <div>
+                            <textarea placeholder="Your Message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary hover:bg-secondary text-white font-medium px-4 py-2 rounded-md">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark py-12 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold">SHRESTHA <span class="text-primary">EMPIRE</span></h3>
+                    <p class="mt-4 text-gray-300">Building excellence with quality construction services in Patna and across Bihar.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-primary transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-primary transition">About Us</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-primary transition">Services</a></li>
+                        <li><a href="#projects" class="text-gray-300 hover:text-primary transition">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-primary transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Our Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Residential Construction</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Commercial Construction</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Renovation & Remodeling</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-primary transition">Industrial Construction</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-primary mt-1 mr-3"></i>
+                            <span class="text-gray-300">Patna, Bihar, India</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone text-primary mt-1 mr-3"></i>
+                            <span class="text-gray-300">+9801960672</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                            <span class="text-gray-300">shresthaempire7@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; 2023 Shrestha Empire. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        // Simple form validation
+        document.addEventListener('DOMContentLoaded', function() {
+            const forms = document.querySelectorAll('form');
+            forms.forEach(form => {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const name = form.querySelector('input[type="text"]');
+                    const email = form.querySelector('input[type="email"]');
+                    const phone = form.querySelector('input[type="tel"]');
+                    
+                    if (name && name.value === '') {
+                        alert('Please enter your name');
+                        return;
+                    }
+                    
+                    if (email && email.value === '') {
+                        alert('Please enter your email');
+                        return;
+                    }
+                    
+                    if (phone && phone.value === '') {
+                        alert('Please enter your phone number');
+                        return;
+                    }
+                    
+                    // If using PHP, the form would submit naturally
+                    // For demo purposes, we'll show a success message
+                    alert('Thank you for your message. We will contact you shortly.');
+                    form.reset();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
